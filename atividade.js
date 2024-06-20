@@ -1,7 +1,7 @@
 const body = document.querySelector('body');
 body.style.height = '100vh';
 body.style.overflow = 'hidden';
-body.style.backgroundColor = '#79451d';
+body.style.backgroundColor = '#195e63';
 body.style.display = 'flex';
 body.style.flexDirection = 'column';
 body.style.justifyContent = 'space-between';
@@ -12,7 +12,7 @@ const header = document.createElement('header');
 header.style.width = '150%';
 header.style.height = '8%';
 header.style.display = 'flex';
-header.style.backgroundColor = '#2f2c2b';
+header.style.backgroundColor = '#063940';
 body.appendChild(header);
 
 const div2 = document.createElement('div');
@@ -22,12 +22,11 @@ div2.style.display = 'flex';
 div2.style.justifyContent = 'space-evenly';
 div2.style.flexDirection = 'column';
 div2.style.alignItems = 'center';
-div2.style.backgroundColor = '#ffe3b3';
+div2.style.backgroundColor = '#3e838c';
 body.appendChild(div2);
 
 const textoDiv = document.createElement('h1');
 textoDiv.textContent = 'Atividade Programação Web';
-textoDiv.style.backgroundColor = 'white'
 div2.appendChild(textoDiv);
 
 const nome = document.createElement('input');
@@ -98,7 +97,7 @@ const footer = document.createElement('footer');
 footer.style.width = '150%';
 footer.style.height = '8%';
 footer.style.display = 'flex';
-footer.style.backgroundColor = '#2f2c2b';
+footer.style.backgroundColor = '#063940';
 body.appendChild(footer);
 
  
